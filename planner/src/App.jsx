@@ -358,7 +358,7 @@ const App = () => {
       <footer className='text-white bg-gradient-to-l from-rose-500 via-slate-800 to-slate-900
       bg-white h-[60px] fixed bottom-0 left-0 w-full flex items-center justify-between px-8 '>
          <h1 className ="text-2xl font-bold">Toatal tasks -{tasks.length}</h1>
-         <a href=https://zustand-planner.vercel.app/" className=' hover:underline'>https://zustand-planner.vercel.app/</a>
+         <a href="https://zustand-planner.vercel.app/" className='hover:underline'> https://zustand-planner.vercel.app/</a>
 
 
       </footer>
