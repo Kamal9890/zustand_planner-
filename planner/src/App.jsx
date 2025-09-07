@@ -358,14 +358,14 @@ const App = () => {
       <footer className='text-white bg-gradient-to-l from-rose-500 via-slate-800 to-slate-900
       bg-white h-[60px] fixed bottom-0 left-0 w-full flex items-center justify-between px-8 '>
          <h1 className ="text-2xl font-bold">Toatal tasks -{tasks.length}</h1>
-         <a href="www.google.com" className=' hover:underline'>codingott.com</a>
+         <a href="https://zustand-planner.vercel.app/" className='hover:underline'> https://zustand-planner.vercel.app/</a>
 
 
       </footer>
 
       <Modal open={open} footer ={null} onCancel={handleClose} maskClosable={false}>
         <h1 className='text-lg font-medium mb-4'>New Task </h1>
-        <Form onFinish={createTask} form={form} initialValues={{description:desc}}>
+        <Form onFinish={createTask} form={form} >
           <Form.Item
           name ="title"
           rules={[{required:true}]}>
